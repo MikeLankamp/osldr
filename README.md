@@ -1,6 +1,4 @@
 # osldr
-Operating System Bootloader
-
 `osldr` is a stage-2 bootloader that is able to boot operating systems from files in the ELF, PE/COFF, Multiboot file format, or from disk directly by loading as a bootsector. It only supports the FAT file format for reading from disks. It features an editable boot.ini file and a boot menu where the user can select one of the configured operating systems.
 
 ## Prerequisites
@@ -10,8 +8,8 @@ Operating System Bootloader
 ## Building
 To build, run `cmake` and `make`:
 ```
-mkdir build;
-cd build;
+mkdir build
+cd build
 cmake ..
 make
 ```
